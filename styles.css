@@ -1,0 +1,194 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: rgb(220 168 168);
+  }
+  
+  header {
+    /* background-color: #333; */
+    /* color: #fff; */
+    padding: 20px;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: linear-gradient(340deg, #e3429d, #f24949);
+    font-family: cursive;
+    border-radius: 17px;
+    border: 3px solid black;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 55px;
+    width: 55px;
+    height: 10px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  .nav-links a:hover {
+    color: #333;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    /* border-radius: 9px; */
+    cursor: pointer;
+  }
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    /* background-color: #333;
+    color: #fff; */
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: aqua;
+    color: black;
+    font-family: cursive;
+    font-weight: 600;
+  }
+  
+  .about-section {
+    background: rgb(220 168 168);
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .section-description {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .services-section {
+    background: rgb(220 168 168);
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .service {
+    flex-basis: 300px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(7deg, #64d5d5, #e99696);
+    border-radius: 14px;
+    height: 355px;
+    border: 3px solid black;
+  }
+  
+  .service i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .service-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: cursive;
+  }
+  
+  .service-description {
+    color: #333;
+  }
+  
+  footer {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(340deg, #e3429d, #f24949);
+    font-family: cursive;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+  
+  footer div p{
+    text-align: center;
+  }
+  .container-2 {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: linear-gradient(340deg, #e3429d, #f24949);
+    font-family: cursive;
+    border-radius: 35px;
+    border: 3px solid black;
+  }
+  
+  .container-3{
+    border: 3px solid black;
+    max-width: 1350px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-family: cursive;
+    color: black;
+    background: linear-gradient(340deg, #e3429d, #f24949);
+  }
+
+  hr{
+    /* display: block;
+    unicode-bidi: isolate; */
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    /* margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset; */
+    border-width: 1px;
+    margin: 0 69px;
+  }
